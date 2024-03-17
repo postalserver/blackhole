@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.5](https://github.com/postalserver/blackhole/compare/v0.0.4...v0.0.5) (2024-03-17)
+
+
+### Bug Fixes
+
+* **smtp:** listen on all addresses ([7b32278](https://github.com/postalserver/blackhole/commit/7b32278a858a239f1ffe9cefcef815da4498deb3))
+
+
+### Miscellaneous Chores
+
+* **github-actions:** replace --rm-dist with --clean ([cb4762a](https://github.com/postalserver/blackhole/commit/cb4762a90d5fde7aea679f55fda6a86c82cf9289))
+
 ## [0.0.4](https://github.com/postalserver/blackhole/compare/v0.0.3...v0.0.4) (2024-03-17)
 
 
