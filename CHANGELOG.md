@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/postalserver/blackhole/compare/v0.0.3...v0.0.4) (2024-03-17)
+
+
+### Miscellaneous Chores
+
+* **github-actions:** upgrade go version for go-releaser ([ff2af1e](https://github.com/postalserver/blackhole/commit/ff2af1e3d43c6d23443aa25f28eb7b49cf0c0c4d))
+
 ## [0.0.3](https://github.com/postalserver/blackhole/compare/v0.0.2...v0.0.3) (2024-03-17)
 
 
