@@ -10,7 +10,7 @@ import (
 
 func runSMTPServer() {
 	srv := &smtpd.Server{
-		Addr:         "127.0.0.1:2525",
+		Addr:         ":2525",
 		Handler:      mailHandler,
 		HandlerRcpt:  rcptHandler,
 		Appname:      "blackhole",
@@ -19,7 +19,10 @@ func runSMTPServer() {
 		AuthRequired: false,
 	}
 	log.Printf("smtp: starting smtp server")
-	srv.ListenAndServe()
+	err := srv.ListenAndServe()
+	if err != nil {
+		log.Fatalf("smtp: failed to start smtp server: %s", err)
+	}
 }
 
 func getUsername(s string) string {
