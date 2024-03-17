@@ -27,7 +27,7 @@ You can send email to various addresses to illicit different responses:
 
 The following URLs are available. 
 
-* `/200` - returns a 200 OK
-* `/403` - returns a 403 Forbidden
-* `/500` - returns a 500 Internal Server Error
+* `/200` or `/ok` - returns a 200 OK
+* `/403` or `/forbidden` - returns a 403 Forbidden
+* `/500` or `/internal-server-error` - returns a 500 Internal Server Error
 * All other URLs will return a 404 Not Found
