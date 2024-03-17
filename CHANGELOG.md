@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.6](https://github.com/postalserver/blackhole/compare/v0.0.5...v0.0.6) (2024-03-17)
+
+
+### Features
+
+* aliases for http paths ([c135751](https://github.com/postalserver/blackhole/commit/c135751fe92d6ae4fa3335591fb5c76e48921962))
+* more options for smtp server ([e82e0ca](https://github.com/postalserver/blackhole/commit/e82e0ca37e75164fe8f3f060b2cf5364c0aac266))
+
+
+### Documentation
+
+* typo ([0774d3e](https://github.com/postalserver/blackhole/commit/0774d3e74419124fda9603204b28a35527e32446))
+* update readme ([f767baa](https://github.com/postalserver/blackhole/commit/f767baa3f2ee0ec0eaeeb64792830033862095b3))
+
 ## [0.0.5](https://github.com/postalserver/blackhole/compare/v0.0.4...v0.0.5) (2024-03-17)
 
 
