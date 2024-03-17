@@ -15,7 +15,13 @@ docker run --pull always \
 
 ### SMTP
 
-You can send email to `accept@anydomain.com` which will be accepted. Any other username will be blocked at the `RCPT TO` stage.
+You can send email to various addresses to illicit different responses:
+
+* `accept@` - message will be accepted with a 250 
+* `softfail@` - message will be rejected with a 450 ("Mailbox unavailable at the moment")
+* `later@` - message will be rejected with a 450 ("Try again in 250 seconds")
+* `hardfail@` - message will be rejected with a 550 ("Invalid recipient address") after receiving data
+* `anything-else@` - message will be rejected with a 550 ("Invalid recipient address") afer `RCPT TO`
 
 ### HTTP
 
